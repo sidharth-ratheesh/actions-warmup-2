@@ -16,6 +16,11 @@ runs:
       run: |
         echo "${{ inputs.greeting }}"
 
+    - name: Print farewell
+      shell: bash
+      run: |
+        echo "${{ inputs.farewell }}"
+
     - name: Print runner info
       shell: bash
       run: |
